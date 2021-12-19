@@ -1,4 +1,5 @@
 import Head from 'next/head';
+import Featured from '../component/Featured';
 /* import Image from 'next/image'; */
 import styles from '../styles/Home.module.css';
 
@@ -11,7 +12,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <h1>Home Page</h1>
-      {/*       <Image src="/img/logo.png" alt="Pizza Restaurant" /> */}
+      <Featured/>
     </div>
   );
 }
